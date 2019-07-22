@@ -9,27 +9,37 @@
 
     <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
 
-    <button id="shrinkBtn">Shrink</button>
-    <button id="growBtn">Grow</button>
-    <button id="resetBtn">Reset</button>
+    <button id="Button 1">Grow</button>
+    <button id="Button 2">Blue</button>
+    <button id="Button 3">Fade</button>
+    <button id="button 4">Reset</button>
 
     <script type="text/javascript">
 
-        document.getElementById("shrinkBtn").addEventListener("click", function(){
-
-            document.getElementById("box").style.height = "25px";
-
-        });
-
-        document.getElementById("growBtn").addEventListener("click", function(){
+        document.getElementById("Button 1").addEventListener("click", function(){
 
             document.getElementById("box").style.height = "250px";
 
         });
 
-        document.getElementById("resetBtn").addEventListener("click", function(){
+        document.getElementById("Button 2").addEventListener("click", function(){
 
-            document.getElementById("box").style.height = "150px";
+            document.getElementById("box").style.backgroundColor = "blue";
+
+        });
+
+        
+        document.getElementById("Button 3").addEventListener("click", function(){
+
+            document.getElementById("box").style.opacity =".50";
+
+        });
+
+        document.getElementById("button 4").addEventListener("click", function(){
+
+            document.getElementById("box").style.height = "150px"
+            document.getElementById("box").style.backgroundColor ="orange";
+            document.getElementById("box").style.opacity ="1.0";
 
         });
 
