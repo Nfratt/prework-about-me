@@ -1,10 +1,11 @@
-document.getElementById("Button 1").addEventListener("click", function(){
+
+    document.getElementById("Button 1").addEventListener("click", function(){
 
     document.getElementById("box").style.height = "250px";
 
 });
 
-document.getElementById("Button 2").addEventListener("click", function(){
+    document.getElementById("Button 2").addEventListener("click", function(){
 
     document.getElementById("box").style.backgroundColor = "blue";
 
