@@ -1,0 +1,31 @@
+h1{text-align: center;
+}
+.RedTxt {color: red;}
+
+.BluTxt {color: blue;}
+
+.GrnTxt {color: green;}
+
+.BgTxt{font-size: 155%}
+
+.SmTxt{font-size: 75%}
+
+.Cntr{text-align: center;}
+
+.Bold {font-weight: bold}
+
+.CF {font-family: Arial, Helvetica, sans-serif}
+
+.Multi{
+    font-size: 125%;
+    color: orange;
+    font-weight: bold;
+    }
+.styledFont{
+    font-size: 110%;
+    color: green;
+    font-family: cursive
+}
+ #styledImage{border: orange;
+border-width: 5px; 
+border-style: solid}
